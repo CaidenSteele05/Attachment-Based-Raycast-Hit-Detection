@@ -1,2 +1,3 @@
 # Attachment-Based-Raycast-Hit-Detection
 Roblox melee hit detection module that tracks weapon attachments across animation frames and raycasts between positions to detect sword hits.
+This module performs melee hit detection in Roblox by tracking named attachments on a weapon model every render step and raycasting between their previous and current positions. It is designed for animated weapons such as swords, where relying on a single point-in-time check can miss fast movement. The system supports timed tracking windows, debug visualization, per-swing hit filtering, and batched reporting of valid hits to gameplay systems.
